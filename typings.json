@@ -2,6 +2,8 @@
   "name": "nodejs-typescript-template",
   "version": false,
   "dependencies": {},
-  "ambientDependencies": {
+  "ambientDependencies": {},
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160925070332"
   }
 }

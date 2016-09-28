@@ -9,7 +9,7 @@
     "removeComments": true,
     "noImplicitAny": false,
     "noResolve":false,
-    "outDir":"build/www/"
+    "outDir": "build/www/"
   },
   "files": [
     "src/app.ts",

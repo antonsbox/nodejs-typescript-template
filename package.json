@@ -6,8 +6,9 @@
     "clean": "rm -f ./*.js; rm -f ./*.js.map; rm -f ./intermediates/*.js; rm -f ./intermediates/*.js.map",
     "tsc": "./node_modules/.bin/tsc",
     "tsc:w": "./node_modules/.bin/tsc -w",
+    "gulp":"gulp default",
     "start": "node build/www/app.js",
-    "go": "concurrent \"npm run tsc:w\" \"npm run serve\" "
+    "go": "\"npm run gulp\" \"npm run start\" "
   },
   "dependencies": {
     "serve-favicon": "~2.3.0",
@@ -15,6 +16,12 @@
     "typings": "0.8.1"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
     "typescript": "1.7.3"
   }
 }

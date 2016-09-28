@@ -10,10 +10,9 @@
     "go": "concurrent \"npm run tsc:w\" \"npm run serve\" "
   },
   "dependencies": {
-    "typescript": "1.9.0-dev.20160409",
+    "serve-favicon": "~2.3.0",
     "tslint": "3.7.0-dev.2",
-    "typings": "0.8.1",
-    "serve-favicon": "~2.3.0"
+    "typings": "0.8.1"
   },
   "devDependencies": {
     "typescript": "1.7.3"

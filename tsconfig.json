@@ -8,10 +8,12 @@
     "experimentalDecorators": true,
     "removeComments": true,
     "noImplicitAny": false,
+    "noResolve":false,
     "outDir":"build/www/"
   },
   "files": [
-    "app.ts"
+    "src/app.ts",
+    "typings/index.d.ts"
   ],
   "exclude": [
     "node_modules",

@@ -1,5 +1,12 @@
-import http = require("http");
+import * as http from "http";
+module HttpServerTest {
 
-class HttpServerApp {
+    class App {
 
+
+        constructor() {
+
+
+        }
+    }
 }

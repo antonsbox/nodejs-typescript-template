@@ -4,6 +4,6 @@
   "dependencies": {},
   "ambientDependencies": {},
   "globalDependencies": {
-    "node-4": "registry:dt/node-4#4.0.0+20160914122103"
+    "node": "registry:dt/node#6.0.0+20160925070332"
   }
 }
